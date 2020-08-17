@@ -171,13 +171,12 @@ section .title {
 /* ГЕРОЙ */
 
 .hero {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-  rgba(47, 48, 58, 0.4)), url(../images/people_working.jpg);
+  background-image: url(../images/people_working.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   background-color: var(--primery-text-color);
 }
-
 .hero .title {
   margin: 0 auto;
   width: 696px;
